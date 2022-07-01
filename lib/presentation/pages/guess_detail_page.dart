@@ -124,6 +124,6 @@ class PersonasView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Text("Personas");
+    return const Text("Personas");
   }
 }
