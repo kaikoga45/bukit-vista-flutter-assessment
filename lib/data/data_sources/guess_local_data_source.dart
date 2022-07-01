@@ -17,7 +17,9 @@ class GuessLocalDataSourceImpl implements GuessLocalDataSource {
 
   @override
   Future<List<GuessModel>> getGuess() async {
+    // Get the guess list from the json file.
     final response = await client.loadString(guessDataPath);
+    // Convert the json to a list of GuessModel.
     return GuessListModel.fromJson(json.decode(response)).guessList;
   }
 }
