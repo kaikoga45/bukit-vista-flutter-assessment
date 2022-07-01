@@ -38,7 +38,7 @@ class _HomePageState extends State<HomePage> {
       appBar: const ReusableHeader(
         title: "Guess List",
         displaySearchField: true,
-        leading: SizedBox.shrink(),
+        leading: null,
       ),
       body: Consumer<HomePageNotifier>(builder: (_, provider, __) {
         switch (provider.requestState) {

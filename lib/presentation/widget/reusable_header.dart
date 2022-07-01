@@ -18,6 +18,7 @@ class ReusableHeader extends StatelessWidget implements PreferredSizeWidget {
   @override
   Widget build(BuildContext context) {
     return AppBar(
+      automaticallyImplyLeading: false,
       leading: leading,
       title: Text(title),
       elevation: 0,
