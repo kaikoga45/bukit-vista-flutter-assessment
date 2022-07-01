@@ -7,7 +7,6 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import '../../domain/entities/booking.dart';
 import 'guess_detail_page.dart';
-import '';
 
 final GlobalKey<ScaffoldState> _key = GlobalKey(); // Create a key
 

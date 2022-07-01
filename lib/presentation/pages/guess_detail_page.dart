@@ -1,6 +1,6 @@
 import 'package:bukit_vista_flutter_assessment/domain/entities/booking.dart';
 import 'package:bukit_vista_flutter_assessment/domain/entities/guess.dart';
-import 'package:bukit_vista_flutter_assessment/presentation/widget/back_button_nav.dart';
+import 'package:bukit_vista_flutter_assessment/presentation/widget/reusable_back_button_nav.dart';
 import 'package:bukit_vista_flutter_assessment/presentation/widget/reusable_item_card.dart';
 import 'package:bukit_vista_flutter_assessment/presentation/widget/reusable_header.dart';
 import 'package:bukit_vista_flutter_assessment/presentation/widget/reusable_tab.dart';
